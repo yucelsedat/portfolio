@@ -1,5 +1,6 @@
 import './App.css'
 import Profile from './assets/profile.jpg'
+import Img from './assets/img.png'
 
 export default function App() {
   return (
@@ -29,7 +30,7 @@ export default function App() {
       <main>
         {/* INTRO BANNER SECTİON */}
         <section>
-          <div className="container w-3/5 m-auto px-4 py-10 flex justify-center items-center gap-6">
+          <div className="container w-3/5 h-screen m-auto px-4 py-10 flex justify-center items-center gap-6">
             <div className='flex-1'>
               <h2 className='font-bold text-4xl '>Hello, I'm Sedat</h2>
               <h2 className='font-bold text-4xl text-blue-400'>Jr.Full Stack Developer</h2>
@@ -43,18 +44,66 @@ export default function App() {
 
         {/* PROJECTS SECTİON */}
         <section id='projects'>
-          <div className="container m-auto">
-            <h2>Projects</h2>
-            <div className='flex'>
-              <div>
-                
+          <div className="container m-auto px-4">
+            <h2 className='text-2xl font-semibold '>Projects</h2>
+            <div className='w-full flex gap-4 mt-11'>
+              <div className='w-1/2 border rounded-md p-4'>
+                <img className='w-full'  src={Img} alt="" />
+                <h3 className='text-2xl font-semibold mt-8'>Project 1</h3>
+                <p className='text-gray-400 text-sm mt-2'>Lorem ipsum dolor sit amet.</p>
+                <div className='w-full flex justify-evenly mt-8'>
+                  <button className='px-6 py-3 bg-blue-500 border border-blue-400 rounded-full hover:bg-blue-600'>Live preview</button>
+                  <button className='px-6 py-3 border rounded-full'>Checkout github</button>
+                </div>
               </div>
+              <div className='w-1/2 border rounded-md p-4'>
+                <img className='w-full'  src={Img} alt="" />
+                <h3 className='text-2xl font-semibold mt-8'>Project 1</h3>
+                <p className='text-gray-400 text-sm mt-2'>Lorem ipsum dolor sit amet.</p>
+                <div className='w-full flex justify-evenly mt-8'>
+                  <button className='px-6 py-3 bg-blue-500 border border-blue-400 rounded-full hover:bg-blue-600'>Live preview</button>
+                  <button className='px-6 py-3 border rounded-full'>Checkout github</button>
+                </div>
+              </div>
+              
+            </div>
+            <div className='w-full flex gap-4 mt-11'>
+              <div className='w-1/2 border rounded-md p-4'>
+                <img className='w-full'  src={Img} alt="" />
+                <h3 className='text-2xl font-semibold mt-8'>Project 1</h3>
+                <p className='text-gray-400 text-sm mt-2'>Lorem ipsum dolor sit amet.</p>
+                <div className='w-full flex justify-evenly mt-8'>
+                  <button className='px-6 py-3 bg-blue-500 border border-blue-400 rounded-full hover:bg-blue-600'>Live preview</button>
+                  <button className='px-6 py-3 border rounded-full'>Checkout github</button>
+                </div>
+              </div>
+              <div className='w-1/2 border rounded-md p-4'>
+                <img className='w-full'  src={Img} alt="" />
+                <h3 className='text-2xl font-semibold mt-8'>Project 1</h3>
+                <p className='text-gray-400 text-sm mt-2'>Lorem ipsum dolor sit amet.</p>
+                <div className='w-full flex justify-evenly mt-8'>
+                  <button className='px-6 py-3 bg-blue-500 border border-blue-400 rounded-full hover:bg-blue-600'>Live preview</button>
+                  <button className='px-6 py-3 border rounded-full'>Checkout github</button>
+                </div>
+              </div>
+              
             </div>
           </div>
           
         </section>
+
+        {/* TECHONOLOGİES SECTİON*/}
         <section id='contact'>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae similique, quas ullam quod facilis veritatis quia neque qui praesentium iste saepe ipsa quidem assumenda, necessitatibus eius eligendi. Unde, quisquam odio!</p>
+          <div className="container m-auto px-4">
+            
+          </div>
+        </section>
+
+        {/* CONTACT */}
+        <section id='contact'>
+          <div className="container m-auto px-4">
+            
+          </div>
         </section>
       </main>
     </>
