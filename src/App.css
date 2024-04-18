@@ -1,0 +1,19 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+
+body {
+  background-color: black;
+  color: #fff;
+}
+
+.profile {
+  width: 1000px;
+  aspect-ratio: 1/1;
+  border-radius: 50%;
+  overflow: hidden;
+  object-fit: cover;
+}
