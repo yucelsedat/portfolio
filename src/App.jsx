@@ -43,8 +43,15 @@ export default function App() {
 
         {/* PROJECTS SECTİON */}
         <section id='projects'>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae similique, quas ullam quod facilis veritatis quia neque qui praesentium iste saepe ipsa quidem assumenda, necessitatibus eius eligendi. Unde, quisquam odio!</p>
-          <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nesciunt perspiciatis odit possimus id facere veritatis maiores? Quo hic voluptates eaque exercitationem velit, eveniet officia maxime, sapiente praesentium sed dolorum facilis dolor quos harum corrupti. Amet nobis eius perspiciatis itaque repellat porro voluptatem, dicta voluptatum iusto suscipit corporis laboriosam commodi cupiditate officiis neque, nostrum molestiae voluptas natus dignissimos? Sed consectetur illo ipsum dolorum quis maiores sit nemo quos, ut aspernatur? Perferendis sit maiores ullam magni saepe autem qui doloremque reprehenderit tempore voluptatum soluta, porro dolor eveniet rerum sint fugiat quo pariatur hic dolores quae repellendus ad aperiam. Dolorum consectetur provident, odio impedit suscipit culpa vero laboriosam distinctio odit incidunt nihil delectus excepturi quia voluptatibus dolores aliquam, reiciendis omnis! Incidunt laborum unde fugit qui porro a voluptatum consequuntur odio amet, aliquam quibusdam, tempora modi. Voluptas culpa fugit labore doloribus accusantium fuga explicabo nostrum maxime, expedita facilis laboriosam tenetur aut illo rem iure soluta, quam ad provident molestiae illum atque a totam quaerat placeat. Aspernatur ipsa praesentium eius odit ipsam sapiente, facilis deserunt sit. Nostrum qui earum accusamus, consequatur, dignissimos veritatis, fuga non eveniet odit nobis reiciendis. Veritatis odio asperiores, accusamus quaerat mollitia voluptatibus, laborum cumque maiores quidem soluta perspiciatis cum nostrum tenetur.</p>
+          <div className="container m-auto">
+            <h2>Projects</h2>
+            <div className='flex'>
+              <div>
+                
+              </div>
+            </div>
+          </div>
+          
         </section>
         <section id='contact'>
           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae similique, quas ullam quod facilis veritatis quia neque qui praesentium iste saepe ipsa quidem assumenda, necessitatibus eius eligendi. Unde, quisquam odio!</p>
