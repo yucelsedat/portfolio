@@ -30,7 +30,7 @@ export default function App() {
       <main>
         {/* INTRO BANNER SECTİON */}
         <section>
-          <div className="container w-3/5 h-screen m-auto px-4 py-10 flex justify-center items-center gap-6">
+          <div className="container w-3/5 h-[80%] m-auto px-4 py-10 flex justify-center items-center gap-6">
             <div className='flex-1'>
               <h2 className='font-bold text-4xl '>Hello, I'm Sedat</h2>
               <h2 className='font-bold text-4xl text-blue-400'>Jr.Full Stack Developer</h2>
@@ -45,7 +45,7 @@ export default function App() {
         {/* PROJECTS SECTİON */}
         <section id='projects'>
           <div className="container m-auto px-4">
-            <h2 className='text-2xl font-semibold '>Projects</h2>
+            <h2 className='text-3xl font-semibold '>Projects</h2>
             <div className='w-full flex gap-4 mt-11'>
               <div className='w-1/2 border rounded-md p-4'>
                 <img className='w-full'  src={Img} alt="" />
@@ -93,15 +93,46 @@ export default function App() {
         </section>
 
         {/* TECHONOLOGİES SECTİON*/}
-        <section id='contact'>
+        <section id='contact' className='mt-12'>
           <div className="container m-auto px-4">
-            
+            <h2 className='text-3xl font-semibold '>Techonologies</h2>
+            <div className='mt-14 flex flex-col gap-6'>
+              <div>
+                <div className='flex justify-between items-center'>
+                  <h2 className='text-lg font-semibold'>HTML</h2>
+                  <p className='text-gray-500'>advanced</p>
+                </div>
+                <span className='w-[90%] h-2 bg-blue-500 block rounded-md mt-2'></span>
+              </div>
+              <div>
+                <div className='flex justify-between items-center '>
+                  <h2 className='text-lg font-semibold'>CSS, Sass & Bootstrap</h2>
+                  <p className='text-gray-500'>advanced</p>
+                </div>
+                <span className='w-[50%] h-2 bg-blue-500 block rounded-md mt-2'></span>
+              </div>
+              <div>
+                <div className='flex justify-between items-center'>
+                  <h2 className='text-lg font-semibold'>Javascript</h2>
+                  <p className='text-gray-500'>advanced</p>
+                </div>
+                <span className='w-[60%] h-2 bg-blue-500 block rounded-md mt-2'></span>
+              </div>
+              <div>
+                <div className='flex justify-between items-center'>
+                  <h2 className='text-lg font-semibold'>React</h2>
+                  <p className='text-gray-500'>advanced</p>
+                </div>
+                <span className='w-[30%] h-2 bg-blue-500 block rounded-md mt-2'></span>
+              </div>
+            </div>
           </div>
         </section>
 
         {/* CONTACT */}
-        <section id='contact'>
+        <section id='contact' className='mt-12'>
           <div className="container m-auto px-4">
+            <h2 className='text-2xl font-semibold '>Projects</h2>
             
           </div>
         </section>
