@@ -45,7 +45,7 @@ export default function App() {
         {/* PROJECTS SECTİON */}
         <section id='projects'>
           <div className="container m-auto px-4">
-            <h2 className='text-3xl font-semibold '>Projects</h2>
+            <h2 className='text-2xl font-semibold '>Projects</h2>
             <div className='w-full flex gap-4 mt-11'>
               <div className='w-1/2 border rounded-md p-4'>
                 <img className='w-full'  src={Img} alt="" />
@@ -67,7 +67,7 @@ export default function App() {
               </div>
               
             </div>
-            <div className='w-full flex gap-4 mt-11'>
+            <div className='w-full flex gap-4 mt-8'>
               <div className='w-1/2 border rounded-md p-4'>
                 <img className='w-full'  src={Img} alt="" />
                 <h3 className='text-2xl font-semibold mt-8'>Project 1</h3>
@@ -93,9 +93,9 @@ export default function App() {
         </section>
 
         {/* TECHONOLOGİES SECTİON*/}
-        <section id='contact' className='mt-12'>
+        <section id='contact' className='mt-14'>
           <div className="container m-auto px-4">
-            <h2 className='text-3xl font-semibold '>Techonologies</h2>
+            <h2 className='text-2xl font-semibold '>Technologies</h2>
             <div className='mt-14 flex flex-col gap-6'>
               <div>
                 <div className='flex justify-between items-center'>
@@ -129,11 +129,59 @@ export default function App() {
           </div>
         </section>
 
-        {/* CONTACT */}
-        <section id='contact' className='mt-12'>
+        {/* ADDİTİONAL */}
+        <section id='contact' className='mt-14'>
           <div className="container m-auto px-4">
-            <h2 className='text-2xl font-semibold '>Projects</h2>
-            
+            <h2 className='text-2xl font-semibold '>Additional technologies and skills </h2>
+            <div className="flex  justify-between mt-12">
+              <div>
+                <p className='font-bold before:w-5 before:h-5 before:bg-blue-500 before:inline-block before:rounded-full flex items-center before:mr-1'>Git</p>
+              </div>
+              <div>
+                <p className='font-bold before:w-5 before:h-5 before:bg-blue-500 before:inline-block before:rounded-full flex items-center before:mr-1'>Wordpress</p>
+              </div>
+              <div>
+                <p className='font-bold before:w-5 before:h-5 before:bg-blue-500 before:inline-block before:rounded-full flex items-center before:mr-1'>Team work</p>
+              </div>
+              <div>
+                <p className='font-bold before:w-5 before:h-5 before:bg-blue-500 before:inline-block before:rounded-full flex items-center before:mr-1'>Quick learning</p>
+              </div>
+            </div>
+            <div className="flex  justify-between mt-6">
+              <div className=''>
+                <p className='font-bold before:w-5 before:h-5 before:bg-blue-500 before:inline-block before:rounded-full flex items-center before:mr-1'>Git</p>
+              </div>
+              <div>
+                <p className='font-bold before:w-5 before:h-5 before:bg-blue-500 before:inline-block before:rounded-full flex items-center before:mr-1'>Wordpress</p>
+              </div>
+              <div>
+                <p className='font-bold before:w-5 before:h-5 before:bg-blue-500 before:inline-block before:rounded-full flex items-center before:mr-1'>Team work</p>
+              </div>
+              <div>
+                <p className='font-bold before:w-5 before:h-5 before:bg-blue-500 before:inline-block before:rounded-full flex items-center'>Quick learning</p>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        {/* ADDİTİONAL */}
+        <section id='contact' className='mt-14'>
+          <div className="container m-auto px-4">
+            <h2 className='text-2xl font-semibold '>About me </h2>
+            <div className="pl-10 mt-12 flex flex-col gap-10 relative before:absolute before:left-14 before:bottom-0 before:w-1 before:h-full before:bg-gray-300 before:mr-4 before:rounded-full">
+              <div className='ml-10 relative'>
+                <h3 className='absolute pr-8 -left-20 after:w-4 after:h-4 after:bg-blue-500 after:inline-block after:rounded-full after:absolute after:right-0 after:top-1'>2015</h3>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus a repellendus fuga officiis culpa corrupti aspernatur sit corporis harum rem totam vitae sequi ducimus saepe itaque possimus, perferendis cumque excepturi recusandae tempora quisquam repudiandae iste optio veniam! Rem, officia?
+              </div>
+              <div className='ml-10 relative'>
+                <h3 className='absolute pr-8 -left-20 after:w-4 after:h-4 after:bg-blue-500 after:inline-block after:rounded-full after:absolute after:right-0 after:top-1'>2015</h3>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus a repellendus fuga officiis culpa corrupti aspernatur sit corporis harum rem totam vitae sequi ducimus saepe itaque possimus, perferendis cumque excepturi recusandae tempora quisquam repudiandae iste optio veniam! Rem, officia?
+              </div>
+              <div className='ml-10 relative'>
+                <h3 className='absolute pr-8 -left-20 after:w-4 after:h-4 after:bg-blue-500 after:inline-block after:rounded-full after:absolute after:right-0 after:top-1'>2015</h3>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus a repellendus fuga officiis culpa corrupti aspernatur sit corporis harum rem totam vitae sequi ducimus saepe itaque possimus, perferendis cumque excepturi recusandae tempora quisquam repudiandae iste optio veniam! Rem, officia?
+              </div>
+            </div>
           </div>
         </section>
       </main>
